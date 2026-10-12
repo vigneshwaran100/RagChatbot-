@@ -1,0 +1,146 @@
+[
+  {
+    "question": "What is the full name and edition of this ISO standard?",
+    "ground_truth": "ISO/IEC 27001:2022 — Information security, cybersecurity and privacy protection — Information security management systems — Requirements. It is the Third edition, published in October 2022."
+  },
+  {
+    "question": "What is the scope of ISO/IEC 27001:2022?",
+    "ground_truth": "The document specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system within the context of the organization. It also includes requirements for the assessment and treatment of information security risks tailored to the needs of the organization. The requirements are generic and intended to be applicable to all organizations, regardless of type, size or nature."
+  },
+  {
+    "question": "What three core properties does an ISMS preserve according to the introduction?",
+    "ground_truth": "The information security management system preserves the confidentiality, integrity and availability of information by applying a risk management process."
+  },
+  {
+    "question": "What must top management do to demonstrate leadership and commitment to the ISMS?",
+    "ground_truth": "Top management shall demonstrate leadership and commitment by: ensuring the information security policy and objectives are established and compatible with the strategic direction; ensuring integration of ISMS requirements into the organization's processes; ensuring resources are available; communicating the importance of effective information security; ensuring the ISMS achieves its intended outcomes; directing and supporting persons; promoting continual improvement; and supporting other relevant management roles."
+  },
+  {
+    "question": "What are the requirements for the information security policy under clause 5.2?",
+    "ground_truth": "Top management shall establish an information security policy that: is appropriate to the purpose of the organization; includes information security objectives or provides the framework for setting them; includes a commitment to satisfy applicable requirements; and includes a commitment to continual improvement. The policy shall be available as documented information, communicated within the organization, and available to interested parties as appropriate."
+  },
+  {
+    "question": "What must be included in the Statement of Applicability (SoA) under clause 6.1.3?",
+    "ground_truth": "The Statement of Applicability shall contain: the necessary controls; justification for their inclusion; whether the necessary controls are implemented or not; and the justification for excluding any of the Annex A controls."
+  },
+  {
+    "question": "What are the steps in the information security risk assessment process under clause 6.1.2?",
+    "ground_truth": "The risk assessment process shall: establish and maintain risk criteria including risk acceptance criteria; ensure repeated assessments produce consistent and comparable results; identify information security risks associated with loss of confidentiality, integrity and availability and identify risk owners; analyse risks by assessing potential consequences, likelihood of occurrence and determining risk levels; and evaluate risks by comparing results with risk criteria and prioritizing risks for treatment."
+  },
+  {
+    "question": "What does clause 7.3 require regarding awareness?",
+    "ground_truth": "Persons doing work under the organization's control shall be aware of: the information security policy; their contribution to the effectiveness of the ISMS including the benefits of improved information security performance; and the implications of not conforming with the ISMS requirements."
+  },
+  {
+    "question": "What are the requirements for internal audits under clause 9.2?",
+    "ground_truth": "The organization shall conduct internal audits at planned intervals to confirm the ISMS conforms to the organization's own requirements and the requirements of the document, and is effectively implemented and maintained. The organization shall plan and maintain an audit programme including frequency, methods, responsibilities and reporting, define audit criteria and scope, select auditors ensuring objectivity and impartiality, and ensure results are reported to relevant management."
+  },
+  {
+    "question": "What must the management review include as inputs under clause 9.3.2?",
+    "ground_truth": "The management review shall include consideration of: status of actions from previous reviews; changes in external and internal issues; changes in needs and expectations of interested parties; feedback on information security performance including nonconformities, monitoring results, audit results and fulfilment of objectives; feedback from interested parties; results of risk assessment and status of risk treatment plan; and opportunities for continual improvement."
+  },
+  {
+    "question": "What are the steps the organization must take when a nonconformity occurs under clause 10.2?",
+    "ground_truth": "When a nonconformity occurs, the organization shall: react to the nonconformity by controlling, correcting it and dealing with consequences; evaluate the need for action to eliminate causes so it does not recur; implement any action needed; review the effectiveness of corrective action taken; and make changes to the ISMS if necessary. Documented information shall be available as evidence of the nature of nonconformities and results of corrective action."
+  },
+  {
+    "question": "What does control 5.7 (Threat intelligence) require?",
+    "ground_truth": "Information relating to information security threats shall be collected and analysed to produce threat intelligence."
+  },
+  {
+    "question": "What does control 5.23 (Information security for use of cloud services) require?",
+    "ground_truth": "Processes for acquisition, use, management and exit from cloud services shall be established in accordance with the organization's information security requirements."
+  },
+  {
+    "question": "What is required under control 5.15 (Access control)?",
+    "ground_truth": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements."
+  },
+  {
+    "question": "What does control 5.24 require for information security incident management?",
+    "ground_truth": "The organization shall plan and prepare for managing information security incidents by defining, establishing and communicating information security incident management processes, roles and responsibilities."
+  },
+  {
+    "question": "What normative reference is cited in clause 2 of ISO/IEC 27001:2022?",
+    "ground_truth": "ISO/IEC 27000, Information technology — Security techniques — Information security management systems — Overview and vocabulary, is the normative reference cited."
+  },
+  {
+    "question": "What does clause 6.2 require for information security objectives?",
+    "ground_truth": "Information security objectives shall be consistent with the information security policy; be measurable if practicable; take into account applicable information security requirements and results from risk assessment and treatment; be monitored; be communicated; be updated as appropriate; and be available as documented information. The organization shall also determine what will be done, what resources are required, who will be responsible, when it will be completed, and how the results will be evaluated."
+  },
+  {
+    "question": "What does clause 7.5.3 require for control of documented information?",
+    "ground_truth": "Documented information shall be controlled to ensure it is available and suitable for use where and when needed, and adequately protected from loss of confidentiality, improper use or loss of integrity. Activities include distribution, access, retrieval and use; storage and preservation; control of changes including version control; and retention and disposition."
+  },
+  {
+    "question": "What replaced ISO/IEC 27001:2013?",
+    "ground_truth": "ISO/IEC 27001:2022 (third edition) cancels and replaces the second edition ISO/IEC 27001:2013, and also incorporates the Technical Corrigenda ISO/IEC 27001:2013/Cor 1:2014 and ISO/IEC 27001:2013/Cor 2:2015."
+  },
+  {
+    "question": "What is control 5.3 (Segregation of duties)?",
+    "ground_truth": "Conflicting duties and conflicting areas of responsibility shall be segregated."
+  },
+  {
+    "question": "What does the organization need to determine under clause 4.2 regarding interested parties?",
+    "ground_truth": "The organization shall determine: interested parties that are relevant to the information security management system; the relevant requirements of these interested parties; and which of these requirements will be addressed through the information security management system."
+  },
+  {
+    "question": "What are the Annex A control categories?",
+    "ground_truth": "The Annex A controls are organized into organizational controls (clause 5) and other categories aligned with ISO/IEC 27002:2022 clauses 5 to 8. The controls cover areas such as policies, roles, access control, asset management, supplier relationships, incident management, cloud services, and ICT supply chain security."
+  },
+  {
+    "question": "What does clause 8.1 require for operational planning and control?",
+    "ground_truth": "The organization shall plan, implement and control the processes needed to meet requirements and implement the actions determined in Clause 6 by establishing criteria for the processes and implementing control of the processes in accordance with the criteria. Documented information shall be available to the extent necessary to have confidence that the processes have been carried out as planned. The organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects as necessary."
+  },
+  {
+    "question": "What does control 8.7 (Protection against malware) require?",
+    "ground_truth": "Protection against malware shall be implemented and supported by appropriate user awareness."
+  },
+  {
+    "question": "What does control 8.12 (Data leakage prevention) require?",
+    "ground_truth": "Data leakage prevention measures shall be applied to systems, networks and any other devices that process, store or transmit sensitive information."
+  },
+  {
+    "question": "What does control 8.25 (Secure development life cycle) require?",
+    "ground_truth": "Rules for the secure development of software and systems shall be established and applied."
+  },
+  {
+    "question": "What does control 8.15 (Logging) require?",
+    "ground_truth": "Logs that record activities, exceptions, faults and other relevant events shall be produced, stored, protected and analysed."
+  },
+  {
+    "question": "What does control 7.14 (Secure disposal or re-use of equipment) require?",
+    "ground_truth": "Items of equipment containing storage media shall be verified to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use."
+  },
+  {
+    "question": "What bibliography references are cited in ISO/IEC 27001:2022?",
+    "ground_truth": "The bibliography includes: ISO/IEC 27002:2022 (Information security controls); ISO/IEC 27003 (ISMS Guidance); ISO/IEC 27004 (Monitoring, measurement, analysis and evaluation); ISO/IEC 27005 (Guidance on managing information security risks); and ISO 31000:2018 (Risk management Guidelines)."
+  },
+  {
+    "question": "What does control 8.24 (Use of cryptography) require?",
+    "ground_truth": "Rules for the effective use of cryptography, including cryptographic key management, shall be defined and implemented."
+  },
+  {
+    "question": "What does control 8.31 (Separation of development, test and production environments) require?",
+    "ground_truth": "Development, testing and production environments shall be separated and secured."
+  },
+  {
+    "question": "What salary does the CEO of the organization earn?",
+    "ground_truth": "NOT_IN_DOCUMENTS"
+  },
+  {
+    "question": "How many employees work at ISO headquarters in Geneva?",
+    "ground_truth": "NOT_IN_DOCUMENTS"
+  },
+  {
+    "question": "What is the cost to purchase ISO/IEC 27001:2022 certification?",
+    "ground_truth": "NOT_IN_DOCUMENTS"
+  },
+  {
+    "question": "What programming language is recommended for implementing an ISMS?",
+    "ground_truth": "NOT_IN_DOCUMENTS"
+  },
+  {
+    "question": "Which cloud provider is recommended by ISO for cloud services?",
+    "ground_truth": "NOT_IN_DOCUMENTS"
+  }
+]

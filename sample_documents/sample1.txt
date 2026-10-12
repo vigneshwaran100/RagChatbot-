@@ -1,0 +1,40 @@
+# RAG Knowledge Assistant — Sample Document 1
+
+## Introduction to Python Programming
+
+Python is a high-level, interpreted, general-purpose programming language. It emphasizes code readability and uses significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented, and functional programming.
+
+Python was created by Guido van Rossum and first released in 1991. It is currently managed by the Python Software Foundation.
+
+## Primary Use Cases
+
+Python is primarily used for:
+- Web development (Django, FastAPI, Flask)
+- Data science and machine learning (NumPy, pandas, scikit-learn)
+- Automation and scripting
+- Scientific computing
+- Artificial intelligence and deep learning (TensorFlow, PyTorch)
+
+## Advantages of Python
+
+Python's key advantages include its simple and readable syntax, extensive standard library, and a large community of contributors. It is cross-platform and runs on Windows, macOS, and Linux.
+
+## Retrieval Augmented Generation (RAG)
+
+Retrieval Augmented Generation (RAG) is a technique in AI that combines information retrieval with language generation. In a RAG system, when a user poses a question, the system first retrieves relevant documents from a knowledge base, then passes those documents as context to a large language model (LLM) to generate a grounded answer.
+
+RAG is preferred over fine-tuning in many production systems because it allows the knowledge base to be updated without retraining the model. The retrieval step ensures that answers are grounded in factual documents, reducing hallucination.
+
+## Vector Embeddings
+
+Vector embeddings are numerical representations of text in a high-dimensional vector space. Semantically similar texts produce embeddings that are close together in this space, enabling semantic search. Models like MPNet, BERT, and Sentence-BERT are commonly used to generate these embeddings.
+
+## Semantic Search
+
+Semantic search is a search technique that understands the meaning and intent of a query rather than simply matching keywords. By comparing query embeddings with document embeddings using cosine similarity, semantic search can find relevant results even when exact keywords are not present.
+
+## Large Language Models (LLMs)
+
+A large language model (LLM) is a deep learning model trained on massive text datasets to understand and generate human language. Examples include GPT-4, Claude, Gemini, and LLaMA. LLMs can answer questions, summarize documents, write code, and perform many other natural language tasks.
+
+LLMs are often used as the final generation step in RAG pipelines: after retrieving relevant document chunks, the LLM synthesizes a coherent answer grounded in the retrieved evidence.

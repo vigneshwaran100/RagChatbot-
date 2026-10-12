@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# docker-compose.yml — RAG Knowledge Assistant
+#
+# This compose file runs ONLY the FastAPI app.
+# It connects to your EXISTING Qdrant container via the qdrant_net network.
+#
+# Usage:
+#   1. Ensure your Qdrant container is running (see docker/qdrant/docker-compose.qdrant.yml)
+#   2. Copy .env.example → .env and fill in API keys
+#   3. docker compose up --build
+# ─────────────────────────────────────────────────────────────────────────────
+version: "3.9"
+
+services:
+  rag-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rag-knowledge-assistant
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # Override host to use Docker network name of existing Qdrant container
+      QDRANT_HOST: ${QDRANT_HOST:-qdrant}
+      QDRANT_PORT: ${QDRANT_PORT:-6333}
+    networks:
+      - qdrant_net
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import httpx; httpx.get('http://localhost:8000/health').raise_for_status()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    volumes:
+      - ./sample_documents:/app/sample_documents:ro
+
+networks:
+  # Must match the network name used by your existing Qdrant docker-compose
+  qdrant_net:
+    external: true
